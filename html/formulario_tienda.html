@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="../html/assets/DAMOR_sencillo.png">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/logodamor.css">
+
+    <style>
+      #formulario {  
+       z-index: 0 !important;
+       }
+     </style>
+
+
+
+</head>
+
+<!-- <style>
+  .col-sm {  
+  z-index: -1 !important;
+  }
+</style> -->
+
+<div id="navbar"></div><!--Navbar-->
+
+<body> 
+
+<br><br><br><br>
+      <form id="formulario" class="formulario"> <!-- Manager's form start-->
+    <div class="container">
+
+        <H1>Agregar productos</H1>
+        
+        <div class="row">
+          <div class="col-sm">
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">ID: </label>
+                <input type="text" class="form-control" id="ID_Producto">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Nombre del producto: </label>
+                <input type="text" class="form-control" id="nombre_producto">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Precio: </label>
+                <input type="text" class="form-control" id="Precio">
+              </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Cantidad: </label>
+                    <input type="text" class="form-control" id="cantidad">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Tipo de producto: </label>
+                <select class="form-control" id="tipo">
+                  <option>regular</option>
+                  <option>temporada</option>
+                  <option>producto_covid</option>
+                </select>
+              </div>
+
+              <!--Perdonar :(-->
+              <div class="form-group">
+              <div class="custom-file">
+              <input type="file" class="custom-file-input" id="imagen" lang="es">
+                <label class="custom-file-label" for="customFileLang">Seleccionar imagen</label>
+              </div>
+
+                <br><br>
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1">Descripción: </label>
+                <textarea class="form-control" id="Descripcion" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="enviar" onclick="agregarProducto()">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+
+      <div id="regular" style="display: none"></div>
+      <div id="temporada" style="display: none"></div>
+      <div id="producto_covid" style="display: none"></div>
+      <script src="../js/formulario_tienda.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script>
+  $('#imagen').on('change',function(){
+      //get file name
+      $(document).on('change', '.custom-file-input', function (event) {
+    $(this).next('.custom-file-label').html(event.target.files[0].name);
+})
+  })
+</script>
+</form><!--Manager's form finish-->
+
+<script src="/js/navbar.js"></script>
+<script src="../js/navres.js"></script>
+<script src="../js/registro.js"></script>
+</body>
+</html>

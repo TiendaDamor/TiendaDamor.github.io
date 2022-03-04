@@ -1,0 +1,20 @@
+/* #logodamor{
+       position: relative;
+      top: 20px; /* adjust the values ​​to move the image 
+      left: 3px;
+      width: 1px;
+      height: 15px;
+      margin: 1%;
+      display: block;
+      position:  fixed;
+      z-index: 3;
+    } */
+  
+    body {
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      background: url(../html/assets/Store/fondos/WhatsApp\ Image\ 2022-02-25\ at\ 10.00.56.jpeg);
+      background-size: cover;
+      background-attachment: fixed;
+  }
+    

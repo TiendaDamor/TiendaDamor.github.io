@@ -1,0 +1,21 @@
+.btn-mas{
+    width: 130px;
+    display: flex;
+    border:1px solid white;
+    font-weight:bold;
+    font-family:Arial;
+  
+}
+.btn-mas>span {
+    width:25px;
+    text-align:center;
+    padding:8px 12px;
+}
+.btn-mas>span:first-child, .btn-mas>span:last-child {
+    cursor:pointer;
+}
+.btn-mas .numero {
+    width:100%;
+    border-left:1px solid white;
+    border-right:1px solid white;
+}

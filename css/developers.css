@@ -1,0 +1,141 @@
+
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	background: #D8D9D6;
+}
+
+
+h1{
+	padding: 5px 0;
+	margin: 1px 0;
+	background-color: #F6A015;
+	color:#704B1C;
+	height: 45px;
+	border-radius: 20px;
+	font-size: 34px;
+  }
+
+  #intro{
+	padding: 5px 0;
+	margin: 5px 0;
+	background-color: #704B1C;
+	color: whitesmoke;
+	border-radius: 10px;
+	height: 150px;
+	font-size: large;
+	
+	
+  }
+.wrapper {
+	padding: 5px 0 !important;
+	position: relative !important;
+	margin: 5px 0 !important;
+}
+.carousel-control.left, .carousel-control.right {
+	background: transparent !important;
+}
+.imgBox {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border: 5px dashed #704B1C;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.imgBox img {
+	width: 100% !important;
+}
+.carousel-inner {
+	background: #F6A015 !important;
+	padding: 35px !important;
+	border-radius: 25px !important;
+	box-shadow: 0 5px 20px #704B1C !important;
+}
+.carousel-caption {
+	position: static !important;
+	padding-bottom: 15px !important;
+	padding-top: 0 !important;
+}
+.carousel-caption h3 {
+	font-size: 50px !important;
+	margin-bottom: 15px !important;
+	margin-top: 25px !important;
+	
+	color: #262626 !important;
+	text-shadow: none !important;
+}
+.carousel-caption h4 {
+	color: #2b2626 !important;
+	text-shadow: none !important;
+	font-size:30px;
+}
+.carousel-caption p {
+	font-size: 20px !important;
+	margin: auto !important;
+	width: 70% !important;
+	margin-bottom: 10px !important;
+	
+	font-weight: 300 !important;
+	letter-spacing: 1px !important;
+	text-shadow: none !important;
+	color: black !important;
+}
+
+.carousel-caption a{
+	border:#704B1C 2px solid !important;
+	border-radius: 10px !important;
+	font-size: 18px !important;
+	
+}
+
+.carousel-indicators li {
+	background-color: #F6A015 !important;
+	width: 50px !important;
+	
+}
+.carousel-control {
+	color: #2b2626 !important;
+}
+.carousel-indicators .active {
+	background-color: #704B1C !important;
+	width: 20px !important;
+	
+}
+.carousel-indicators {
+	bottom: 1px !important;
+
+}
+
+
+	.carousel-caption a:hover {
+		color:white;
+		background-color:#704B1C;
+	}
+
+    @media screen and (max-width:1202px){
+		#intro{
+			font-size: 20px;
+			font-weight: lighter;
+			margin: 2%;
+			align-items: center;
+			height: 200px;
+		}
+		h1{
+            align-items: center;
+		}
+		}
+
+		@media screen and (max-width:986px){
+			#intro{
+				font-size: 16px;
+				font-weight: lighter;
+				margin: 2%;
+				align-items: center;
+				height: 100%;
+			}
+			h1{
+				align-items: center;
+			}
+			}

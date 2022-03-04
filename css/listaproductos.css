@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width:968px){
+    #home{
+        font-size: 80%;
+        position: left;
+        
+    }
+
+}
+
+@media screen and (max-width:768px){
+    #home{
+        font-size: 60%;
+        position: left;
+        
+    }
+
+}
+
+@media screen and (max-width:528px){
+    #home{
+        font-size: 45%;
+    }
+
+}

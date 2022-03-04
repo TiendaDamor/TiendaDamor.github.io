@@ -1,0 +1,68 @@
+.valores {
+  list-style: circle;
+}
+
+@media (min-width:768px)
+{
+.body {
+    margin: auto;
+    width: 500px;
+    border-radius: 3%;
+    background-color: rgba(201, 201, 201, .7);
+   
+}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form {
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+}
+
+form input,
+form textarea {
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  color: #525c66;
+  font-size: 1em;
+  resize: none;
+  border-bottom: 2px solid #F6A015;
+}
+
+.enviar {
+  display: block;
+  background-color: #704b1c;
+  padding: 10px 45px 10px 45px;
+  border: 0;
+  font-size: 1em;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.enviar:hover {
+  background-color: #F6A015;
+}
+textarea {
+  resize: none;
+}
+
+.form-header{
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 90px;
+  color: rgb(246,160,28)
+  
+}
+
+h1{
+  text-align: center;
+  color: #F6A015;
+  font-size: 40px;
+
+}

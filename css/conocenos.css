@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  h1{
+      text-align: center;
+
+  }
+
+ .col-sm-4{
+     padding-bottom: 30px;
+ }
+
+#historia{
+    position: relative;
+    align-items: center;
+}
